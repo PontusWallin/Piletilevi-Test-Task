@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavigationTabsComponent } from '././navigation-tabs.component';
+import { NavigationTabsComponent } from './navigation-tabs.component';
 
 describe('TabsComponent', () => {
   let component: NavigationTabsComponent;

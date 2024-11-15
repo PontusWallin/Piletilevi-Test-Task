@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {MatTabsModule} from '@angular/material/tabs';
 import {DiscountsService, DiscountState} from '../discounts.service';
 

@@ -14,7 +14,6 @@ import {DiscountFiltersComponent} from '../discount-filters/discount-filters.com
     DiscountTableTabsComponent,
     DiscountTablePaginatorComponent,
     DiscountFiltersComponent,
-    MatPaginator,
   ],
   providers: [DiscountsService],
   templateUrl: './discount-table-container.component.html',

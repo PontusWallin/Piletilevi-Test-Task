@@ -15,7 +15,6 @@ import {
     FormsModule,
     DiscountSearchFieldComponent,
     DiscountTypeDropdownComponent,
-    CreateDiscountButtonComponent,
     DiscountSearchButtonComponent,
     DiscountFilterClearButtonComponent
   ],
