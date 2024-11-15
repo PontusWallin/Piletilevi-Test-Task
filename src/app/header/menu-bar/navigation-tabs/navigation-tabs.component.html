@@ -1,0 +1,33 @@
+<ul
+  class="hidden md:flex md:flex-row
+  justify-start md:space-x-4 navigation-menu items-stretch"
+>
+  <li (click)="setActiveTab(NavigationTab.Discounts)">
+    <app-navigation-tab
+      [isActive]="activeTab === NavigationTab.Discounts"
+      [tabName]="NavigationTab.Discounts"
+      [tabTitle]="'Back Office'"
+    ></app-navigation-tab>
+  </li>
+  <li (click)="setActiveTab(NavigationTab.BackOffice)">
+    <app-navigation-tab
+      [isActive]="activeTab === NavigationTab.BackOffice"
+      [tabName]="NavigationTab.BackOffice"
+      [tabTitle]="'Back Office'"
+    ></app-navigation-tab>
+  </li>
+  <li (click)="setActiveTab(NavigationTab.Reports)">
+    <app-navigation-tab
+      [isActive]="activeTab === NavigationTab.Reports"
+      [tabName]="NavigationTab.Reports"
+      [tabTitle]="'Reports'"
+    ></app-navigation-tab>
+  </li>
+  <li (click)="setActiveTab(NavigationTab.Help)">
+    <app-navigation-tab
+      [isActive]="activeTab === NavigationTab.Help"
+      [tabName]="NavigationTab.Help"
+      [tabTitle]="'Help'"
+    ></app-navigation-tab>
+  </li>
+</ul>

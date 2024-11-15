@@ -1,0 +1,24 @@
+<div class="input-container">
+<input
+    class="w-52"
+    type="text"
+    placeholder="Applies to"
+    (click)="isDropdownOpen = !isDropdownOpen"
+    readonly
+    [value]="selectedOptions.join(', ')"
+  />
+  <div *ngIf="isDropdownOpen" class="absolute bg-white  w-52 shadow-lg">
+    <div *ngFor="let option of options" class="p-3"
+         [ngClass]="{'bg-gray-200': isSelected(option)}"
+    >
+      <label>
+        <input
+          type="checkbox"
+          [checked]="isSelected(option)"
+          (change)="toggleOption(option)"
+        />
+        {{ option }}
+      </label>
+    </div>
+  </div>
+</div>

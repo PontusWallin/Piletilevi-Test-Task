@@ -1,0 +1,5 @@
+<app-discount-filters></app-discount-filters>
+<app-discount-table-tabs></app-discount-table-tabs>
+<app-discounts-table [displayedDiscounts]="discounts" [paginator]="paginator"></app-discounts-table>
+<app-discount-table-paginator (paginatorChange)="onPaginatorChange($event)"></app-discount-table-paginator>
+

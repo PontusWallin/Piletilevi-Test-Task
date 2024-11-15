@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// add default font for all links
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+html, body {
+  height: 100%;
+  background-color: rgb(245 245 247);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

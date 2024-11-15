@@ -1,0 +1,14 @@
+<nav  class="ml-20">
+  <ol class="flex flex-row space-x-2 ml-2 mt-3">
+    <li class="flex flex-row space-x-2" *ngFor="let crumb of this.breadCrumbs; let last = last"
+        [ngClass]="{ 'breadcrumb-item': true, 'active': last }">
+      <a *ngIf="!last; else lastBreadcrumb" [routerLink]="crumb.url">{{ crumb.label }}</a>
+      <ng-template #lastBreadcrumb><p class="text-gray-300">{{ crumb.label }}</p></ng-template>
+      <div>
+        <p>
+          >
+        </p>
+      </div>
+    </li>
+  </ol>
+</nav>
