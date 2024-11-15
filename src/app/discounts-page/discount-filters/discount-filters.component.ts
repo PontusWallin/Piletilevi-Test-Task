@@ -2,7 +2,6 @@ import {Component} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {DiscountSearchFieldComponent} from './discount-search-field/discount-search-field.component';
 import {DiscountTypeDropdownComponent} from './discount-type-dropdown/discount-type-dropdown.component';
-import {CreateDiscountButtonComponent} from '../create-discount-button/create-discount-button.component';
 import {DiscountSearchButtonComponent} from './discount-search-button/discount-search-button.component';
 import {
   DiscountFilterClearButtonComponent
