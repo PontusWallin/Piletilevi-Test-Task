@@ -1,0 +1,1 @@
+import{Ab as t,Bb as n,Tb as p,_b as i,ga as o}from"./chunk-YX2XSUGP.js";var l=class a{static \u0275fac=function(e){return new(e||a)};static \u0275cmp=o({type:a,selectors:[["app-help-page"]],standalone:!0,features:[i],decls:4,vars:0,template:function(e,m){e&1&&(t(0,"h1"),p(1,"Help"),n(),t(2,"p"),p(3,"This is the help page."),n())}})};export{l as HelpPageComponent};
